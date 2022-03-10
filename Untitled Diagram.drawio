@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T10:53:19.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="N0ASELHNbZ4M9mhmpfLZ" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T10:54:04.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="OM9lbOTVz5oKtl_D0JyS" version="17.1.0" type="github">
   <diagram id="YTfmfn9RxTPrVn7Q4XFw" name="Page-1">
     <mxGraphModel dx="813" dy="454" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="RXG0wrH5LPUmmis5PXeH-1" value="joueur" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="100" y="200" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RXG0wrH5LPUmmis5PXeH-2" value="joueur_id&lt;br&gt;joueur_pseudo&lt;br&gt;joueur_mdp&lt;br&gt;joueur_mail&lt;br&gt;joueur_elo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="RXG0wrH5LPUmmis5PXeH-2" value="joueur_id&lt;br&gt;joueur_pseudo&lt;br&gt;joueur_mdp&lt;br&gt;joueur_mail&lt;br&gt;joueur_elo&lt;br&gt;joueur_est_admin" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="100" y="230" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="RXG0wrH5LPUmmis5PXeH-3" value="objectif" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">

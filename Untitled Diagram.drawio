@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T21:08:35.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ST3B1XTrPk4xFR7tw_uR" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T16:12:08.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="mJvUcanbWtUPuZM268I1" version="17.1.2" type="github">
   <diagram id="YTfmfn9RxTPrVn7Q4XFw" name="Page-1">
-    <mxGraphModel dx="969" dy="318" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1046" dy="361" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="RXG0wrH5LPUmmis5PXeH-3" value="objectif" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="500" y="200" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RXG0wrH5LPUmmis5PXeH-4" value="objectif_id&lt;br&gt;objectif_timing_smite&lt;br&gt;objectif_degat_smite&lt;br&gt;objectif_duree" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="RXG0wrH5LPUmmis5PXeH-4" value="objectif_id&lt;br&gt;objectif_timing_smite&lt;br&gt;objectif_degat_smite&lt;br&gt;objectif_duree&lt;br&gt;objectif_lien_video" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="500" y="230" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="RXG0wrH5LPUmmis5PXeH-5" value="jouer" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -85,14 +85,35 @@
         <mxCell id="RXG0wrH5LPUmmis5PXeH-25" value="0,n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="436" y="235" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S0vZ_RrumaUN4VlxpWsX-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="RXG0wrH5LPUmmis5PXeH-22">
+        <mxCell id="S0vZ_RrumaUN4VlxpWsX-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="RXG0wrH5LPUmmis5PXeH-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-26.39763368969716" y="388.99653288761226" as="sourcePoint" />
             <mxPoint x="12" y="467.39" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S0vZ_RrumaUN4VlxpWsX-2" value="can alter database (upload objectif)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="S0vZ_RrumaUN4VlxpWsX-2" value="can alter database (upload objectif)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-67" y="443.39" width="153" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="_nH6_Rv1RS6_LpDzE1Hf-1" value="Chargement de la page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="428" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_nH6_Rv1RS6_LpDzE1Hf-2" value="changement_bdd = 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="586" y="488" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_nH6_Rv1RS6_LpDzE1Hf-3" value="changement..&lt;br&gt;changement_bdd = 0&lt;br&gt;REFRESH" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="586" y="548" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_nH6_Rv1RS6_LpDzE1Hf-5" value="changement_bdd = 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="488.39" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_nH6_Rv1RS6_LpDzE1Hf-6" value="Objectif" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="548" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_nH6_Rv1RS6_LpDzE1Hf-7" value="changement_bdd = 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="608" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_nH6_Rv1RS6_LpDzE1Hf-8" value="Refresh" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="668" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
